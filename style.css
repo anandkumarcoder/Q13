@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: red;
+    --secondary-color: blue;
+
+}
+
+h1{
+    color: var(--primary-color);
+}
+
+h2{
+    color: var(--secondary-color);
+}
+
+.primary{
+    background-color: var(--primary-color);
+
+}
+.secondary{
+    background-color: var(--secondary-color);
+
+}
